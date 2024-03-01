@@ -21,9 +21,9 @@ app.get("./transactions", (req, res) => {
 app.get("/transactions/:index", (req, res) => {
     const {index} = req.params
     if (transactions[index]) {
-        res.json({transaction: transactions[index]})
+        res.status(200).json({transaction: transactions[index]})
     } else {
-        res.json({message: `no transactions exist at this endpoint: ${index}`})
+        res.status(400).json({message: `no transactions exist at this endpoint ${index}`})
     }
 });
 
