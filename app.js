@@ -23,7 +23,7 @@ app.get("/transactions/:index", (req, res) => {
     if (transactions[index]) {
         res.status(200).json({transaction: transactions[index]})
     } else {
-        res.status(400).json({message: `no transactions exist at this endpoint ${index}`})
+        res.status(400).json({message: `no transactions exist at this endpoint: ${index}`})
     }
 });
 
