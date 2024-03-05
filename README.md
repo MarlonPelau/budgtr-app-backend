@@ -1,10 +1,22 @@
 **budgtr (backend) app**
-(See README.md file in *frontend* also)
-# SET UP Instructions
+(See README.md file in *frontend* also - link below)
+# SET UP Instructions/Installation
 
--First
+To run the app locally, follow these steps:
 
-## budgtr (frontend)
+1st..
+
+Clone the repository: git clone https://github.com/MarlonPelau/budgtr-app-backend.git 
+
+2nd...
+
+Navigate to the project directory for *backend* (or *frontend*):
+
+cd `project-budgtr-app-backend`
+
+3rd...
+
+Install dependencies: npm i `express` `dotenv` `cors` `.env` `react-router-dom`
 
 **Frontend deployment - netlify.com link**:
 *Frontend* - https://github.com/MarlonPelau/project-budgeting-app-frontend
