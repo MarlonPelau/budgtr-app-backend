@@ -18,7 +18,10 @@ cd `project-budgtr-app-backend`
 
 Install dependencies: npm i `express` `dotenv` `cors` `.env` `react-router-dom`
 
-**Frontend deployment - netlify.com link**:
+**Backend deployment - render.com link**: https://budgtr-app-backend.onrender.com
+*Backend* - https://github.com/MarlonPelau/budgtr-app-backend
+
+**Frontend deployment - netlify.com link**: https://mybudgtr.netlify.app
 *Frontend* - https://github.com/MarlonPelau/project-budgeting-app-frontend
 
 **My Repo - Marlon Regis**: <button><a href="https://github.com/MarlonPelau">HERE!</a></button>
