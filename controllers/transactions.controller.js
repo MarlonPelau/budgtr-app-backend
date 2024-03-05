@@ -16,7 +16,9 @@ transactions.get("/", (req, res) => {
 transactions.get("/:id", (req, res) => {
     const {id} = req.params;
     const transaction = transactionsArray.find((transaction) => transaction.id === +id);
-    res.json({transaction});
+    console.log(`from`, transaction)
+    res.json({transaction: transaction});
+
 });
 
 transactions.post("/", validateForm, (req, res) => {
